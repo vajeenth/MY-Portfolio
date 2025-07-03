@@ -55,7 +55,7 @@ export default function HeroSection() {
               <Button
                 onClick={downloadCV}
                 variant="outline"
-                className="border-2 border-gold text-gold hover:bg-gold hover:text-navy px-8 py-3 rounded-full font-semibold"
+                className="border-2 border-gold text-gold hover:bg-gold hover:text-navy hover:border-yellow-500 transition-all duration-300 px-8 py-3 rounded-full font-semibold"
               >
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
