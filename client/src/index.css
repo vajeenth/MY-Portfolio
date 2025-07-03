@@ -88,8 +88,9 @@
   }
 
   .glass-effect {
-    backdrop-filter: blur(10px);
-    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid rgba(255, 215, 0, 0.3);
   }
 
   .animate-fadeInUp {

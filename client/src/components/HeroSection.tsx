@@ -24,7 +24,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="min-h-screen gradient-bg flex items-center justify-center text-white relative overflow-hidden"
+      className="min-h-screen gradient-bg flex items-center justify-center text-white relative overflow-hidden pt-20"
     >
       <div className="absolute inset-0 bg-black opacity-20"></div>
       <div className="container mx-auto px-6 relative z-10">
@@ -92,7 +92,7 @@ export default function HeroSection() {
               <img
                 src={profileImage}
                 alt="Vajeenth Vasanthakumar"
-                className="w-80 h-80 object-cover rounded-full border-8 border-gold shadow-2xl relative z-10"
+                className="w-80 h-80 object-cover object-center scale-90 rounded-full border-8 border-gold shadow-2xl relative z-10"
               />
             </div>
           </div>

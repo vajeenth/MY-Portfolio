@@ -34,7 +34,7 @@ export default function Navigation() {
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "glass-effect border-b border-white/20" : ""
+        isScrolled ? "glass-effect border-b border-white/20 bg-white/95 backdrop-blur-md" : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-6 py-4">
@@ -69,13 +69,13 @@ export default function Navigation() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden bg-white shadow-lg rounded-lg mt-4">
+          <div className="md:hidden bg-white shadow-lg rounded-lg mt-4 border border-gold/20">
             <div className="px-6 py-4 space-y-3">
               {navItems.map((item) => (
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="block w-full text-left text-navy hover:text-gold transition-colors duration-300"
+                  className="block w-full text-left text-navy hover:text-gold transition-colors duration-300 py-2"
                 >
                   {item.label}
                 </button>
