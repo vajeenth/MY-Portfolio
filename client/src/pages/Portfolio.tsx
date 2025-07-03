@@ -3,6 +3,7 @@ import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import SkillsSection from "@/components/SkillsSection";
+import UIUXShowcase from "@/components/UIUXShowcase";
 import ProjectsSection from "@/components/ProjectsSection";
 import EducationSection from "@/components/EducationSection";
 import ContactSection from "@/components/ContactSection";
@@ -33,6 +34,7 @@ export default function Portfolio() {
       <HeroSection />
       <AboutSection />
       <SkillsSection />
+      <UIUXShowcase />
       <ProjectsSection />
       <EducationSection />
       <ContactSection />

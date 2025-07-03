@@ -92,7 +92,7 @@ export default function HeroSection() {
               <img
                 src={profileImage}
                 alt="Vajeenth Vasanthakumar"
-                className="w-80 h-80 object-cover object-center scale-90 rounded-full border-8 border-gold shadow-2xl relative z-10"
+                className="w-80 h-80 object-cover object-center scale-75 rounded-full border-8 border-gold shadow-2xl relative z-10"
               />
             </div>
           </div>
