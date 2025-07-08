@@ -11,7 +11,7 @@ export default function ProjectsSection() {
     {
       title: "Patient Monitoring System",
       description: "AI-powered healthcare solution for real-time patient monitoring with predictive analytics and automated alert systems.",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      image: "https://images.unsplash.com/photo-1747224317356-6dd1a4a078fd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       technologies: ["Python", "AI/ML", "Healthcare"],
       liveDemo: "#",
       github: "#"
