@@ -195,7 +195,7 @@ export default function UIUXShowcase() {
 
         {/* Design Process */}
         <div className="mt-20 text-center">
-          <Card className="bg-gradient-to-r from-navy to-blue-800 text-black">
+          <Card className="bg-gradient-to-r from-navy to-blue-800 text-navy">
             <CardContent className="p-12">
               <h3 className="text-3xl font-bold mb-6">My Design Philosophy</h3>
               <p className="text-xl mb-8 max-w-4xl mx-auto leading-relaxed">
